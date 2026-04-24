@@ -1,2 +1,0 @@
-# teaching-dossier
-Teaching Dossier
