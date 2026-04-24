@@ -1,0 +1,96 @@
+% Setting up the document with a professional article class
+\documentclass[12pt]{article}
+
+% Including necessary packages for formatting and font
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % Using Times for a math-heavy, research paper style
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+% Configuring section titles for a clean, professional look
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+\setstretch{1.25}
+
+% Defining custom colors for professional appearance
+\definecolor{headerblue}{RGB}{0, 51, 102}
+\definecolor{linegray}{RGB}{128, 128, 128}
+
+% Setting up the title
+\title{\textbf{Math Attitudes and Goals Survey}}
+\author{}
+\date{}
+
+\begin{document}
+
+% Generating the title
+\maketitle
+
+% Providing clear and professional instructions
+\begin{center}
+    \textnormal{\textbf{Instructions:} Please respond to each statement by circling a number from \textbf{1 (Strongly Disagree)} to \textbf{5 (Strongly Agree)}. Your responses will help your instructor better understand your perspectives on mathematics.}
+\end{center}
+
+\vspace{1em}
+
+% Structuring the survey sections
+\section*{Perceived Usefulness of Mathematics}
+
+\begin{enumerate}[label=\arabic*., leftmargin=1.5em]
+    \item Mathematics will be valuable in my future career. \\
+          \hfill 1 \quad 2 \quad 3 \quad 4 \quad 5
+    \item Mathematics relates to topics that matter to me. \\
+          \hfill 1 \quad 2 \quad 3 \quad 4 \quad 5
+    \item I intend to apply mathematics in contexts beyond school. \\
+          \hfill 1 \quad 2 \quad 3 \quad 4 \quad 5
+\end{enumerate}
+
+\vspace{1em}
+
+\section*{Confidence and Growth Mindset}
+
+\begin{enumerate}[label=\arabic*., leftmargin=1.5em]
+    \setcounter{enumi}{3}
+    \item I feel comfortable making mistakes in mathematics class. \\
+          \hfill 1 \quad 2 \quad 3 \quad 4 \quad 5
+    \item I am confident in my ability to learn complex mathematical concepts. \\
+          \hfill 1 \quad 2 \quad 3 \quad 4 \quad 5
+    \item I am motivated to enhance my mathematics skills. \\
+          \hfill 1 \quad 2 \quad 3 \quad 4 \quad 5
+\end{enumerate}
+
+\vspace{1em}
+
+\section*{Emotions Toward Mathematics}
+
+\begin{enumerate}[label=\arabic*., leftmargin=1.5em]
+    \setcounter{enumi}{6}
+    \item I enjoy solving mathematical problems. \\
+          \hfill 1 \quad 2 \quad 3 \quad 4 \quad 5
+    \item Mathematics makes me feel anxious. \\
+          \hfill 1 \quad 2 \quad 3 \quad 4 \quad 5
+    \item I feel a sense of pride when I grasp a mathematical concept. \\
+          \hfill 1 \quad 2 \quad 3 \quad 4 \quad 5
+\end{enumerate}
+
+\vspace{1.5em}
+
+% Adding an optional open-ended question
+\section*{Open-Ended Feedback}
+
+\begin{flushleft}
+    \textnormal{If you could share one thing with your instructor about your feelings towards mathematics or how mathematics relates to your life or goals, what would it be?}
+\end{flushleft}
+
+\vspace{2em}
+\noindent\textcolor{linegray}{\rule{\textwidth}{0.4pt}}
+
+\vspace{2em}
+\begin{center}
+    \textnormal{\textit{Thank you for your thoughtful responses. Your input is greatly valued.}}
+\end{center}
+
+\end{document}

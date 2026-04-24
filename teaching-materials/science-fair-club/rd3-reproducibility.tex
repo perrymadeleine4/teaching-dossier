@@ -1,0 +1,358 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=0.75in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage[most]{tcolorbox}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+\renewcommand{\arraystretch}{1.3}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{RD3: Reproducibility}
+\lhead{Science}
+\cfoot{\thepage}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+
+\definecolor{mygray}{gray}{0.95}
+\definecolor{myblue}{RGB}{30,70,120}
+
+\newtcolorbox{purposebox}{
+    colback=mygray,
+    colframe=black,
+    title=Purpose
+}
+
+\newtcolorbox{successbox}{
+    colback=white,
+    colframe=black,
+    title=Success Criteria
+}
+
+\newtcolorbox{infobox}[1]{
+    colback=white,
+    colframe=black,
+    title=#1
+}
+
+\newtcolorbox{studentbox}[1]{
+    colback=white,
+    colframe=myblue,
+    title=#1
+}
+
+\newtcolorbox{draftbox}{
+    colback=mygray,
+    colframe=black
+}
+
+\begin{document}
+
+% =========================
+% PAGE 1: TITLE PAGE
+% =========================
+\thispagestyle{empty}
+
+\vspace*{2cm}
+
+\begin{center}
+    {\Huge \textbf{Procedure Workbook}}\\[1em]
+\end{center}
+
+\vspace{2em}
+
+\begin{purposebox}
+This workbook will help you design a method that another person could repeat. You are being assessed on whether your method is \textbf{logical, complete, safe}, and based on \textbf{appropriate materials} and equipment. By the end of this workbook, you should have a clear draft of your materials list, method, and safety precautions.
+\end{purposebox}
+
+\begin{successbox}
+\begin{itemize}[leftmargin=1.5em]
+    \item I can identify the materials and equipment needed for my investigation.
+    \item I can write a method in clear, logical steps.
+    \item I can include enough detail so another person could repeat my investigation.
+    \item I can identify hazards and explain how to work safely.
+\end{itemize}
+\end{successbox}
+
+\begin{studentbox}{Name}
+\hspace{0.95\textwidth}
+\end{studentbox}
+
+\begin{studentbox}{Class}
+\hspace{0.95\textwidth}
+\end{studentbox}
+
+\begin{studentbox}{Investigation Topic}
+\hspace{0.95\textwidth}
+\end{studentbox}
+
+\vfill
+
+\begin{center}
+\textit{Science Fair Skills Workbook}
+\end{center}
+
+\newpage
+
+% =========================
+% PAGE 2
+% =========================
+\subsection*{Step 1: Learn the key words}
+
+\begin{infobox}{Key words}
+
+\begin{tabularx}{\textwidth}{X|X}
+
+\textbf{Method}: the step-by-step procedure you will follow.
+&
+\textbf{Logical}: the steps are in a clear order and make sense.
+\\[0.8em]
+
+\textbf{Complete}: the method includes enough detail for another person to repeat it.
+&
+\textbf{Materials}: the substances or items you use in the investigation.
+\\[0.8em]
+
+\textbf{Equipment}: the tools or measuring instruments you use.
+&
+\textbf{Hazard}: something that could cause harm.
+\\[0.8em]
+
+\textbf{Precaution}: an action you take to reduce risk.
+&
+\textbf{Reproducible}: able to be repeated by another person using the same method.
+\\
+
+\end{tabularx}
+
+\end{infobox}
+
+\begin{studentbox}{}
+Why is a complete method important in science?
+
+\vspace{1em}
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\end{studentbox}
+
+\subsection*{Step 2: Choose appropriate materials and equipment}
+
+\begin{infobox}{What to include}
+List the specific materials and equipment needed for your investigation. Include quantities, sizes, measuring tools, and exact names of equipment. For example, write ``100 mL graduated cylinder'' instead of ``container''.
+\end{infobox}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+\hline
+\textbf{Material / Equipment} & \textbf{Quantity or Size} & \textbf{Why is it needed?} \\ \hline
+& & \\[0.8em] \hline
+& & \\[0.8em] \hline
+& & \\[0.8em] \hline
+& & \\[0.8em] \hline
+& & \\[0.8em] \hline
+& & \\[0.8em] \hline
+\end{tabularx}
+\end{center}
+
+% =========================
+% PAGE 3
+% =========================
+\subsection*{Step 3: Plan a logical and complete method}
+
+\begin{infobox}{What to include}
+Write your method as numbered steps in the correct order.
+
+A strong method should:
+\begin{itemize}[leftmargin=1.5em]
+    \item begin with the setup,
+    \item explain what to change and what to measure,
+    \item include quantities and units,
+    \item explain how many trials to do,
+    \item state what must stay the same,
+    \item be detailed enough for another person to repeat.
+\end{itemize}
+\end{infobox}
+
+\textbf{Draft a rough outline of your method:}
+
+\vspace{12em}
+
+\vspace{1em}
+
+\subsection*{Step 4: Make the method safe and reproducible}
+
+\begin{infobox}{What to include}
+Now revise your plan. Identify possible hazards and explain how to reduce risk.
+\end{infobox}
+
+\textbf{Safety table}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+\hline
+\textbf{Hazard} & \textbf{Precaution} \\ \hline
+& \\[1.8em] \hline
+& \\[1.8em] \hline
+& \\[1.8em] \hline
+\end{tabularx}
+\end{center}
+
+\vspace{1em}
+
+\newpage
+
+\subsection*{Step 5: Revise expectations}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|
+                               >{\raggedright\arraybackslash}X|
+                               >{\raggedright\arraybackslash}X|
+                               >{\raggedright\arraybackslash}X|
+                               >{\raggedright\arraybackslash}X|
+                               >{\raggedright\arraybackslash}X|}
+\hline
+\textbf{Level} & \textbf{4} & \textbf{3} & \textbf{2} & \textbf{1} & \textbf{0} \\ \hline
+\textbf{Reproducibility}
+& \textbf{Designs} a \textbf{logical}, \textbf{complete} and \textbf{safe} method in which they select \textbf{appropriate} materials and equipment.
+& \textbf{Designs} a \textbf{complete} and \textbf{safe} method in which they select \textbf{appropriate} materials and equipment.
+& \textbf{Designs} a \textbf{safe} method in which they select materials and equipment.
+& \textbf{Designs} a method, with limited success.
+& The student does not reach a standard described. \\ \hline
+\end{tabularx}
+\end{center}
+
+%%%%%% MAKE RUBRIC CONSISTENT WITH PREVIOUS RUBRIC 
+
+% =========================
+% PAGE 4
+% =========================
+\subsection*{Look at the examples}
+
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X}
+
+\begin{minipage}[t]{\linewidth}
+\textbf{Level 1--2 example}
+
+\begin{draftbox}
+I will test my experiment by changing the independent variable and recording the results. I will use some equipment and repeat it a few times. I will be careful and write down what happens.
+\end{draftbox}
+
+\textbf{Why this is limited:}
+
+\begin{itemize}[leftmargin=1.5em]
+    \item The method is too vague.
+    \item The materials and equipment are not named specifically.
+    \item The steps are not detailed enough for another person to repeat the investigation.
+    \item Safety is mentioned, but the hazards and precautions are not explained.
+\end{itemize}
+\end{minipage}
+
+&
+\begin{minipage}[t]{\linewidth}
+\textbf{Level 3 example}
+
+\begin{draftbox}
+First, gather the materials listed in the equipment table. Measure the independent variable carefully using the correct measuring tool and record the starting value. Set up the apparatus in the same way for each trial. Repeat the investigation at least three times for each condition. Record the data in a results table after every trial. Keep control variables the same each time. Before beginning, identify hazards and follow the listed safety precautions.
+\end{draftbox}
+\end{minipage}
+
+\\
+\end{tabularx}
+
+\vspace{2em}
+\textbf{Revision checklist}
+
+\begin{minipage}{0.48\textwidth}
+\begin{itemize}[leftmargin=1.5em]
+    \item[$\square$] My method is in a logical order.
+    \item[$\square$] My method is complete.
+    \item[$\square$] My materials and equipment are appropriate.
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}{0.48\textwidth}
+\begin{itemize}[leftmargin=1.5em]
+    \item[$\square$] My steps include measurements and units.
+    \item[$\square$] My method includes repeated trials.
+    \item[$\square$] My method is safe.
+\end{itemize}
+\end{minipage}
+
+\newpage
+
+% =========================
+% PAGE 5
+% =========================
+\textbf{Name:} \rule{0.3\textwidth}{0.4pt}
+\hfill
+\textbf{Class:} \rule{0.25\textwidth}{0.4pt}
+\hfill
+
+\vspace{1em}
+
+\begin{draftbox}
+Use this page to formalize your reproducible method and select your materials. Write clearly and specifically. Another student should be able to read your work and understand exactly what to do, and reproduce your process.
+\end{draftbox}
+
+\textbf{Final materials and equipment list}
+
+\vspace{1em}
+
+\begin{minipage}{0.48\textwidth}
+\begin{enumerate}[leftmargin=2em]
+    \item \rule{\linewidth}{0.4pt}
+    \item \rule{\linewidth}{0.4pt}
+    \item \rule{\linewidth}{0.4pt}
+    \item \rule{\linewidth}{0.4pt}
+    \item \rule{\linewidth}{0.4pt}
+\end{enumerate}
+\end{minipage}
+\hfill
+\begin{minipage}{0.48\textwidth}
+\begin{enumerate}[leftmargin=2em, start=4]
+    \item \rule{\linewidth}{0.4pt}
+    \item \rule{\linewidth}{0.4pt}
+    \item \rule{\linewidth}{0.4pt}
+    \item \rule{\linewidth}{0.4pt}
+    \item \rule{\linewidth}{0.4pt}
+\end{enumerate}
+\end{minipage}
+
+\vspace{3em}
+
+
+\textbf{Final method}
+
+\vspace{1em}
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\vspace{1em}
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+\rule{\textwidth}{0.4pt}\\[1.2em]
+
+\end{document}
